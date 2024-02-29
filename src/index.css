@@ -1,0 +1,123 @@
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2b2b;
+  min-height: 150px;
+}
+
+.header {
+  font-size: 28px;
+  flex-direction: column;
+
+}
+
+.myLink {
+  color: #2c2b2b;
+  text-decoration: none;
+}
+
+nav.navbar {
+  background-color: #2c2b2b;
+}
+
+.nav-link {
+  text-transform: capitalize;
+}
+
+.white {
+  color: #fff;
+}
+
+.mainContent {
+  margin: 15px 0;
+  min-height: calc(100vh - 350px);
+}
+
+.frmSearch {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.frmSearch div:not(:first-child) {
+  margin: 5px;
+}
+
+.frmSearch button:not(:last-child) {
+  margin: 5px;
+}
+
+.col-for-card {
+  margin-bottom: 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+
+.footer {
+  color: #fff;
+  font-size: 22px;
+  flex-direction: column;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.img404 {
+  display: block;
+  margin: 15px auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.social ul {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.instagram {
+  background: url('../public/images/icons/instagram.svg') center center no-repeat;
+}
+
+.facebook {
+  background: url('../public/images/icons/facebook.svg') center center no-repeat;
+}
+
+.twitter {
+  background: url('../public/images/icons/twitter.svg') center center no-repeat;
+}
+
+.youtube {
+  background: url('../public/images/icons/youtube.svg') center center no-repeat;
+}
